@@ -1,0 +1,13 @@
+.bard-button {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bard-button:hover {
+    background-color: #286090;
+  }
+  
