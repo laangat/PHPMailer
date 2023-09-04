@@ -1,4 +1,4 @@
-Certainly! The provided code is a PHP script that uses the PHPMailer library to send an HTML email with a button to a recipient. Here's a step-by-step explanation of the code:
+The provided code is a PHP script that uses the PHPMailer library to send an HTML email with a button to a recipient. Here's a step-by-step explanation of the code:
 
     Include PHPMailer Libraries:
 
@@ -37,8 +37,8 @@ $mail->Host = "smtp.gmail.com";
 $mail->SMTPAuth = true;
 $mail->SMTPSecure = "tls";
 $mail->Port = 587;
-$mail->Username = "langatkevoh18@gmail.com";
-$mail->Password = "eczhxcdqkbkgkczb";
+$mail->Username = "your_email";
+$mail->Password = "your_password";
 
 These lines configure the SMTP (Simple Mail Transfer Protocol) settings for sending the email. In this case, the script is set up to use Gmail's SMTP server. You specify the hostname, enable SMTP authentication, set the encryption type, port, and provide your Gmail username and password.
 
@@ -46,8 +46,8 @@ Email Sender and Recipient:
 
 php
 
-$mail->setFrom("langatkevoh18@gmail.com", "Your Name");
-$mail->addAddress("langatkevin75@gmail.com", "Recipient Name");
+$mail->setFrom("senders_email", "Your Name");
+$mail->addAddress("recipients_email", "Recipient Name");
 
 These lines set the sender's email address and name (the "From" field) and the recipient's email address and name (the "To" field).
 
