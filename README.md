@@ -15,8 +15,11 @@ Use PHPMailer Namespace:
 php
 
 use PHPMailer\PHPMailer\PHPMailer;
+
 use PHPMailer\PHPMailer\SMTP;
+
 use PHPMailer\PHPMailer\Exception;
+
 
 These use statements define namespaces for PHPMailer classes, making it easier to work with them in the script.
 
@@ -33,12 +36,19 @@ SMTP Configuration:
 php
 
 $mail->isSMTP();
+
 $mail->Host = "smtp.gmail.com";
+
 $mail->SMTPAuth = true;
+
 $mail->SMTPSecure = "tls";
+
 $mail->Port = 587;
+
 $mail->Username = "your_email";
+
 $mail->Password = "your_password";
+
 
 These lines configure the SMTP (Simple Mail Transfer Protocol) settings for sending the email. In this case, the script is set up to use Gmail's SMTP server. You specify the hostname, enable SMTP authentication, set the encryption type, port, and provide your Gmail username and password.
 
