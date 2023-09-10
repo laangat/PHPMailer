@@ -5,8 +5,11 @@ The provided code is a PHP script that uses the PHPMailer library to send an HTM
     php
 
 require 'includes/PHPMailer.php';
+
 require 'includes/SMTP.php';
+
 require 'includes/Exception.php';
+
 
 These lines include the necessary PHPMailer library files. PHPMailer is a popular PHP library for sending emails, and these files contain its core functionality.
 
