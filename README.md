@@ -60,7 +60,9 @@ Email Sender and Recipient:
 php
 
 $mail->setFrom("senders_email", "Your Name");
+
 $mail->addAddress("recipients_email", "Recipient Name");
+
 
 These lines set the sender's email address and name (the "From" field) and the recipient's email address and name (the "To" field).
 
@@ -69,6 +71,7 @@ Email Subject:
 php
 
 $mail->Subject = "Test email using PHPMailer";
+
 
 This line sets the subject of the email.
 
